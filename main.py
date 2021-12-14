@@ -332,7 +332,7 @@ async def kick(ctx):
     em = discord.Embed(colour = discord.Colour.random(), title = "Help")
     em.add_field(name="Kick", value="Kicks the user mentioned")
     em.add_field(name="**Syntax**", value="!kick <member> [reason]", inline=False)
-    em.set_footer(text="Shibe")em.set_footer(text="Shibe")
+    em.set_footer(text="Shibe")
     await ctx.send(embed=em)
 
 @help.command()
