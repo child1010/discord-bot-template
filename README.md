@@ -23,4 +23,6 @@ If you find any issues with the code or get any errors pull up an issue
 - Start the bot using `python main.py` in command prompt or terminal
 
 ## What needs to be fixed right now
-- Making footer custom (I mean it already is but for making it easier for users i would do like `embed_footer = "Footer here"`  and then replace every footer value with that variable)(FIXED)
+- ~~Making footer custom (I mean it already is but for making it easier for users i would do like `embed_footer = "Footer here"`  and then replace every footer value with that variable)~~
+
+- Making the code less messy
