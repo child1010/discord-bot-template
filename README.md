@@ -1,7 +1,10 @@
 # Discord.py Template
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fchild1010%2Fdiscord-bot-template%2Ftree%2Fmain)                                                                                 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/child1010/discord-bot-template)
 
-# Features
+## NOTICE
+If you find any issues with the code or get any errors pull up an issue
+
+## Features
 
 - Discord.py
 - Animals
@@ -20,4 +23,4 @@
 - Start the bot using `python main.py` in command prompt or terminal
 
 ## What needs to be fixed right now
-- Making footer custom (I mean it already is but for making it easier for users i would do like `embed_footer = "Footer here"`  and then replace every footer value with that variable)
+- Making footer custom (I mean it already is but for making it easier for users i would do like `embed_footer = "Footer here"`  and then replace every footer value with that variable)(FIXED)
