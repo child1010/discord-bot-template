@@ -1,9 +1,8 @@
+#unneeded imports, vs code auto adds them lol...
 #adding more commands later
 import os
 import requests
 import discord
-import psutil
-
 import random
 from discord.ext import commands
 import praw
@@ -19,7 +18,7 @@ reddit = praw.Reddit(client_id = 'clientid',
 
 TOKEN = 'token here'
 
-embed_footer_text = "Anything you want! (this changes the little SHibe thing if yk what im talking about)" 
+embed_footer_text = "Anything you want (this changes the little SHibe thing if yk what im talking about)" 
 
 client = commands.Bot(command_prefix = '!')
 client.remove_command('help')
@@ -29,10 +28,6 @@ client.remove_command('help')
 @client.event
 async def on_ready(): 
     print('Bot is ready.')
-
-
-    
-
 
 @client.command()
 async def meme(ctx):
@@ -51,7 +46,6 @@ async def meme(ctx):
         await ctx.send(embed=embed)
         em.set_footer(text=embed_footer_text)
 
-        
 @client.command()
 async def me_irl(ctx):
     subreddit = reddit.subreddit('me_irl')
@@ -87,8 +81,6 @@ async def dankmeme(ctx):
     em.set_footer(text=embed_footer_text)
     await ctx.send(embed=embed)
     
-
-
 @client.command()
 async def ping(ctx):
     em = discord.Embed(
@@ -120,10 +112,6 @@ async def hello(ctx):
     em.set_footer(text=embed_footer_text)
     em.add_field(name='Hello!', value='Its nice to meet you!', inline=False)
     await ctx.send(embed=em)
-
-
-   
-    
 
 @client.group(invoke_without_command=True)
 async def help(ctx):
