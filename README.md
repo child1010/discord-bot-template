@@ -22,7 +22,7 @@ DISCORD.PY IS OUTDATED, I RECCOMEND USING [NEXTCORD](https://github.com/nextcord
 - Clone the repo using git
 - Edit the lines for reddit and the bot token
 - Install all packages required using `pip install -r requirements.txt` in command prompt or terminal
-- Start the bot using `python main.py` in command prompt or terminal
+- Start the bot using `python main.py` or for linux `python3 main.py` in command prompt or terminal
 
 ## What needs to be fixed right now
 - Making the code less messy
